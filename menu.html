@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Menu i ceny | Pieczarka Kobyłka</title>
+<meta name="description" content="Menu Pieczarki w Kobyłce: 10 zapiekanek XXL w rozmiarze 30 cm i 50 cm, hot dogi amerykańskie, lody naturalne, gofry i kawa.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#16110d">
+<link rel="icon" href="img/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="menu">
+
+<section class="page-hero">
+  <div class="wrap">
+    <span class="kicker">Menu i ceny</span>
+    <h1>Wypasione zapiekanki <span class="script">XXL</span></h1>
+    <p class="lead">Do każdej zapiekanki dobierz świeże dodatki i sos. Mała ma 30 cm, duża 50 cm.</p>
+    <span class="status" data-status><i></i>Codziennie 11:00 do 21:30</span>
+  </div>
+</section>
+
+<section class="tint">
+  <div class="wrap">
+    <div class="menu-tools">
+      <div class="filters" role="group" aria-label="Filtruj">
+        <button data-filter="all" class="on">Wszystkie</button>
+        <button data-filter="klasyki">Klasyki</button>
+        <button data-filter="miesne">Mięsne</button>
+        <button data-filter="kurczak">Z kurczakiem</button>
+        <button data-filter="ananas">Z ananasem</button>
+      </div>
+      <div class="size-switch" role="group" aria-label="Rozmiar">
+        <button data-size="30">Mała · 30 cm</button>
+        <button data-size="50" class="on">Duża · 50 cm</button>
+      </div>
+    </div>
+    <div class="menu-list" data-menu></div>
+  </div>
+</section>
+
+<section class="dark" id="hotdogi">
+  <div class="wrap hotdogs">
+    <div class="hd-photo reveal"><img src="img/hotdog.jpg" alt="Hot dog amerykański z prażoną cebulką, ogórkiem i pomidorem" loading="lazy"></div>
+    <div>
+      <span class="kicker reveal">Nowość na tablicy</span>
+      <h2 class="reveal d1">Hot dog <span class="script">amerykański</span></h2>
+      <p class="lead reveal d1" style="margin:18px 0 30px">Chrupiąca bułka, prażona cebulka, ogórek, świeże warzywa i sosy.</p>
+      <div class="hd-list">
+        <div class="hd reveal"><div><h3>Z parówką XXL</h3><p>Klasyka w wersji XXL</p></div><span class="pr">19 zł</span></div>
+        <div class="hd reveal d1"><div><h3>Z kabanosem XXL</h3><p>Dla fanów wędzonego smaku</p></div><span class="pr">20 zł</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="paper" id="slodkie">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="reveal">
+        <span class="kicker">Na deser</span>
+        <h2>Lody, gofry i kawa</h2>
+      </div>
+      <!-- CONFIRM: ceny lodów, gofrów i kawy (nie ma ich na tablicy) -->
+      <p class="lead reveal d1">Aktualne smaki i ceny deserów sprawdzisz na miejscu albo na naszym Facebooku.</p>
+    </div>
+    <div class="extras">
+      <div class="extra reveal"><img src="img/lody.jpg" alt="" loading="lazy"><div class="body"><h3>Lody naturalne</h3><p>Owocowe i kremowe</p></div></div>
+      <div class="extra reveal d1"><img src="img/gofr.jpg" alt="" loading="lazy"><div class="body"><h3>Świeże gofry</h3><p>Z cukrem pudrem i czekoladą</p></div></div>
+      <div class="extra reveal d2"><img src="img/flatlay.jpg" alt="" loading="lazy"><div class="body"><h3>Gofry z owocami</h3><p>Truskawki, borówki i krem</p></div></div>
+      <div class="extra reveal d3"><img src="img/shake.jpg" alt="" loading="lazy"><div class="body"><h3>Kawa</h3><p>Aromatyczna, także mrożona z bitą śmietaną</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="tint">
+  <div class="wrap board">
+    <div>
+      <span class="kicker reveal">Tablica w lokalu</span>
+      <h2 class="reveal d1">Wolisz zobaczyć oryginał?</h2>
+      <p class="lead reveal d1" style="margin:18px 0 26px">Tak wygląda nasze menu przy ladzie. Kliknij, żeby powiększyć.</p>
+      <a class="btn btn-dark reveal d2" href="tel:+48533429152">Zadzwoń: 533 429 152</a>
+    </div>
+    <button class="reveal d1" data-lightbox style="border:0;padding:0;background:none"><img src="img/menu-tablica.jpg" alt="Tablica z menu Pieczarki: zapiekanki i hot dogi z cenami" loading="lazy"></button>
+  </div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
